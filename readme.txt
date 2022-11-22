@@ -2,6 +2,8 @@ Git is a distributed version control system
 Git is a free software distributed under GPL.
 Git has mutable index called st4age.
 Git tracks changes of files.
+Git has a mutable index called stage.
+
 Author --Lin Chen
 
 git add fileName fileName

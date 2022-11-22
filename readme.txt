@@ -18,3 +18,5 @@ git reset --hard HEAD^
 git reset --hard HEAD^^
 git reset --hard commitId
 git reflog
+#将文件的暂存区代码（如果没有暂存区新版本就使用版本库代码）checkout，撤销未提交的修改
+git checkout -- filename 

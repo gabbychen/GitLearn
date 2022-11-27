@@ -34,3 +34,15 @@ ssh-keygen -t rsa -C "youremail@example.com
 git remote add origin git@githu.com:gabbychen/GitLearn.git
 
 creating a new is quick and simple
+
+#创建dev分支
+git checkout -b dev
+#等价于下面两个命令
+git branch dev //增加dev分支
+git checkout dev //切换dev分支
+#查看branch分支
+git branch
+#合并dev到当前分支
+git merge dev
+#删除dev分支
+git branch -d dev 

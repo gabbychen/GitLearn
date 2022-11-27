@@ -23,3 +23,12 @@ git reflog
 git checkout -- filename 
 #将暂存区文件恢复到工作区
 git restore --staged filename
+#将文件从版本库删除，需要commit命令确认。
+git rm filename
+
+#生成ssh文件
+ssh-keygen -t rsa -C "youremail@example.com
+#将生成的id_rsa.pub文件拷贝到SSH_key里面
+
+#将本地的已有仓库和空的远程库相连接,gabbychen/GitLearn.git是文件在git库中的位置
+git remote add origin git@githu.com:gabbychen/GitLearn.git

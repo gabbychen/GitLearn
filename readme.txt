@@ -32,3 +32,5 @@ ssh-keygen -t rsa -C "youremail@example.com
 
 #将本地的已有仓库和空的远程库相连接,gabbychen/GitLearn.git是文件在git库中的位置
 git remote add origin git@githu.com:gabbychen/GitLearn.git
+
+creating a new is quick and simple
